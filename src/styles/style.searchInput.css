@@ -1,0 +1,26 @@
+.search-wrap {
+    border: none;
+    height: 4vw;
+    width: 35vw;
+    background-color: #ecf0f9;
+    border-radius: 10px;
+    display: flex;
+    margin: 1vw 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input {
+    width: 27vw;
+    height: 1.5vw;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+
+.search-wrap > button {
+    width: 2vw;
+    border: none;
+    background: transparent;
+    color: black;
+}

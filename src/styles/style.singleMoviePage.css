@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.movieInfo {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.title {
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.poster {
+    width: 154px;
+    height: 220px;
+    margin-right: 20px;
+}
+
+.overview {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.trailerContainer {
+    flex: 1;
+    text-align: center;
+}
+
+.trailer {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.trailer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

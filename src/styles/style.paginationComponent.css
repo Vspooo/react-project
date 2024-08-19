@@ -1,0 +1,14 @@
+
+.pagination-button {
+    border: 1px solid #0070f3;
+}
+
+.pagination-button.active {
+    background-color: #0070f3;
+    color: #fff;
+}
+
+.pagination-button.inactive {
+    background-color: #fff;
+    color: #000;
+}

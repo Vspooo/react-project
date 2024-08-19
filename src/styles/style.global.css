@@ -1,0 +1,154 @@
+
+body{
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-theme {
+    background-color: #22272B;
+}
+
+body.dark-theme .bulbIcon{
+    color: white;
+    background-color: #949eaf;
+}
+
+body.dark-theme .icon{
+    color: white;
+}
+
+body.dark-theme .navigator-button{
+    background-color: #414a62;
+    color: white;
+    box-shadow: 0 0 9px 0 white;
+}
+
+body.dark-theme .search-wrap{
+    background-color: #283043;
+}
+
+body.dark-theme .search-wrap >button{
+    color: white;
+}
+
+body.dark-theme .search-input{
+    background-color: #22272B;
+}
+
+body.dark-theme .genre-selector{
+    background-color: #414a62;
+    color: white;
+}
+body.dark-theme .selected{
+    background-color: #949eaf;
+    color: white;
+}
+
+
+
+body.dark-theme .genres-btn{
+    background-color: white;
+    color: #060648;
+}
+
+body.dark-theme h2{
+    color: #b6c2e1;
+    border-bottom: 2px solid #414a62;
+
+}
+
+body.dark-theme .movie-card{
+    background: #949eaf;
+}
+body.dark-theme .movie-card h3{
+    color: black;
+}
+body.dark-theme .movie-card a{
+    background: #414a62;
+}
+
+body.dark-theme .topRatedMovie-wrap{
+    border: none;
+    background-color: #b5bcc7;
+}
+body.dark-theme .topRatedMovie-wrap p{
+    color: black;
+}
+
+body.dark-theme .topRatedMovie-section>button{
+    background: #060648;
+}
+
+body.dark-theme .whats-new-section{
+    background-color: #96a3c5;
+}
+body.dark-theme .whats-new-section>h2{
+    color: black;
+    border-bottom: 2px solid #414a62;
+}
+body.dark-theme .whats-new-section a{
+    color: white;
+    background-color: #6e768c;
+}
+
+body.dark-theme .grid-item{
+    background-color: #47475f;
+    border: none;
+}
+
+body.dark-theme .grid-item h3{
+    color: white;
+}
+
+body.dark-theme .grid-item button{
+    background-color: #b5b5b5;
+    color: black;
+}
+
+body.dark-theme .pagination-button{
+    border: 1px solid #414a62;
+}
+
+body.dark-theme .pagination-button.active{
+    background: black;
+    color: white;
+}
+
+body.dark-theme .pagination-button.inactive{
+    background: white;
+    color: black;
+}
+
+body.dark-theme .title{
+    color: white;
+}
+
+body.dark-theme .content li{
+    color: white;
+}
+
+body.dark-theme .content p{
+    color: white;
+}
+
+body.dark-theme .overview p{
+    color: white;
+}
+
+body.dark-theme .imdb-rating{
+    color: white;
+}
+
+body.dark-theme .trailerContainer>h3{
+    color: white;
+    border: none;
+}
+
+body.light-theme button{
+
+}
+

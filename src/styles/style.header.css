@@ -1,0 +1,22 @@
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vw 0;
+}
+
+.navigator-wrap {
+    display: flex;
+    gap: 1rem;
+}
+
+.icons-wrap {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon {
+    color: black;
+    border: none;
+}

@@ -1,0 +1,73 @@
+.topRatedMovie-wrap {
+    margin: 0 6vw;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.topRatedMovie-wrap img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.topRatedMovie-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topRatedMovie-titleAndRating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.topRatedMovie-titleAndRating p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.topRatedMovie-titleAndRating p:last-child {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.topRatedMovie-meta {
+    display: flex;
+    gap: 10px;
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.topRatedMovie-desc {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.topRatedMovie-section button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.topRatedMovie-section button:hover {
+    background-color: #0056b3;
+}

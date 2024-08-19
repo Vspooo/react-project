@@ -1,0 +1,3 @@
+interface IGenreResponseModel {
+    genres : IGenreModel[]
+}

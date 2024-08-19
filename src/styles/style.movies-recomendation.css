@@ -1,0 +1,15 @@
+.movies-recommendation {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+}
+
+.movies-hotPicks {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 20px;
+}

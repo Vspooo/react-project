@@ -5,5 +5,9 @@ interface IMovieAuthModel {
     overview : string,
     popularity : number,
     page: number,
-    release_date : string
+    release_date : string,
+    genre_ids : number[],
+    poster_path : string,
+    original_title : string,
+
 }

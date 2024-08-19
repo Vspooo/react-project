@@ -1,0 +1,41 @@
+.whats-new-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 1.2s;
+}
+
+.whats-new-section img {
+    width: 154px;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.whats-new-section p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.whats-new-section a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #0070f3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+}
+
+.whats-new-section a:hover {
+    background-color: #005bb5;
+    transition: 1s;
+    scale: 1.05;
+}

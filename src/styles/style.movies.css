@@ -1,0 +1,8 @@
+.movies-grid {
+    margin: 3vw 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+

@@ -1,0 +1,49 @@
+
+.grid-item {
+    display: flex;
+    background-color: lightblue;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.7s ease;
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 25vw;
+    height: 2vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+
+.grid-item:hover {
+    transition: 1s;
+    transform: translateX(15px);
+}
+
+
+.grid-item h3 {
+    font-size: 1.2rem;
+    padding: 15px;
+    color: #0070f3;
+}
+
+
+
+.grid-item p {
+    padding: 0 15px 15px 15px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.grid-item>a>button {
+    height: 1vw;
+    width: 4vw;
+    background-color: #005bb5;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
